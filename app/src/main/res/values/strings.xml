@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DO CARE UAS</string>
+    <string name="DoCare">Do Care</string>
+    <string name="profil">Profil</string>
+    <string name="reward">Reward</string>
+    <string name="AboutUs">About Us</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+</resources>

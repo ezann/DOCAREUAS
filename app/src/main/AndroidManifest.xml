@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.septian.ezra.docareuas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/scss"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/scss"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DoCare"
+            android:label="@string/DoCare" />
+        <activity
+            android:name=".Profil"
+            android:label="@string/profil" />
+        <activity
+            android:name=".Reward"
+            android:label="@string/reward" />
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/AboutUs" />
+        <activity
+            android:name=".profil_edt"
+            android:label="@string/profil" />
+    </application>
+
+</manifest>

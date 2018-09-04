@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    tools:context="com.septian.ezra.docareuas.Profil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llNama">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvprofNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:id="@+id/llAlamat"
+        android:layout_below="@+id/llNama">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvprofAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:id="@+id/llHp"
+        android:layout_below="@+id/llAlamat">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="No Hp"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvprofHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:id="@+id/llTTL"
+        android:layout_below="@+id/llHp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tvprofTTL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>

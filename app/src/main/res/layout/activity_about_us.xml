@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    tools:context="com.septian.ezra.docareuas.AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Visi"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Membantu sesama dan membuat semua orang tersenyum"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Misi"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Membimbing dan mempermudah bahkan share lokasi target donasi oleh User sebagai donatur untuk ke yang berhak"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:textSize="15sp"
+        android:text="Partners :" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/scs"/>
+</LinearLayout>
